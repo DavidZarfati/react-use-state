@@ -11,7 +11,7 @@ function App() {
       <div>
         {languages.map((language) => (
           <button
-            className='btn'
+            className={openId && openId.id === language.id ? "btn selezionato" : "btn"}
             key={language.id}
             onClick={() => setOpenId(language)}
           >

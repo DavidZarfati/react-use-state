@@ -17,8 +17,18 @@
   color: white;
 }
 
+.btn:hover {
+  color: yellow;
+  background-color: red;
+}
+
 .card {
   padding: 15px;
   margin: 10px;
   border: 1px solid black;
+}
+
+.selezionato {
+  background-color: orange;
+  color: black;
 }
